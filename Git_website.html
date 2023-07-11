@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+<link rel="icon" href="favicon.ico">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+
+  <title>Taylor Shumard Ferderer</title>
+  <style>
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 10px;
+  padding-top: 5px;
+  
+}
+a {
+    font-family: Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+  }
+p {
+  color: white; /* Dark color for readability */
+  font-size: 1.25rem; /* Reasonable size for body text */
+  font-family: 'Roboto', sans-serif; /* Clean, readable font */
+  line-height: 1.6; /* Space between lines for readability */
+}
+
+
+.copyright {
+  color: black;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+
+
+
+.headshot {
+  width: 200px;
+  height: 200px;
+  background-image: url('images/new_face.png');
+  background-size: cover;
+  position: absolute;
+  top: 180px;
+  left: 330px;
+  z-index: 0;
+  border-radius: 40%;
+}
+
+
+header {
+  background-color: #1D5B79;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+/* Base font size and default styles */
+
+
+h1 {
+  color: #d3d3d3;
+  font-size: 7.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Caveat', cursive;
+  font-weight: bold;
+  text-shadow: 2px 2px #000000;
+}
+
+h2 {
+  color: #d3d3d3;
+  font-size: 2.5rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  color: #d3d3d3;
+  font-size: 2.75rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+}
+
+
+/* Further adjustments for even smaller screens */
+
+
+main {
+  padding: 20px;
+  background-color: #22A699
+}
+
+.project {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  align-items: left;
+  padding: 10px;
+}
+.fixed-size-image {
+  max-width: 200px;
+  max-height: 200px;
+  
+  z-index: 8;
+}
+
+  
+.skill-row {
+  width: 50%;
+  margin: 80px auto 100px auto;
+  text-align: left;
+  padding: 10px;
+}
+
+#drtuess {
+  width: 100%; 
+  height: auto; 
+  z-index: 4;
+}
+
+@media only screen and (min-width: 768px) {
+  #drtuess {
+    max-width: 200px;
+    height: auto; 
+  }
+}
+
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 300px; 
+    overflow: hidden;
+    z-index: 4;
+}
+
+.carousel-item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    transition: opacity 1s;
+    opacity: 0;
+    z-index: 4;
+}
+
+.carousel-item:first-child {
+    opacity: 1;
+}
+.pro {
+      text-decoration: underline;
+} 
+.pic {
+    width: 100px;
+    height: 100px;
+    z-index: 4;
+}
+
+
+.nav-bar {
+  text-align: right; 
+  position: fixed;
+  top: 670px;
+  right: 20px;
+}
+
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end; 
+}
+
+.nav-bar ul li {
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 10px;
+  background-color: #F29727;
+  color: white; 
+  border-radius: 5px; 
+  transition: background-color 0.3s;/
+}
+
+.nav-bar ul li a:hover {
+  background-color: #F2BE22;
+  color: white; 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+#navbar {
+  text-align: right; 
+  
+  top: 650px;
+  left: 20px;
+  transition: top 0.3s; 
+}
+
+#navbar.sticky {
+  top: 0;
+}
+
+#navbar.vertical {
+  position: fixed;
+  left: 6px;
+  top: 50%; 
+  transform: translateY(-50%);
+}
+
+#navbar.vertical ul {
+  flex-direction: column;
+  align-items: flex-start; 
+}
+
+@media only screen and (min-width: 768px) {
+  #navbar {
+    position: fixed;
+    top: 700; 
+    right: 20px; 
+    transform: translateY(-50%);
+    text-align: left; 
+
+  }
+}
+@media screen and (max-width: 767px) {
+  .nav-bar {
+    position: absolute;
+    top: 670px;
+    left: 20px;
+  }
+}
+
+
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color:  #1D5B79;
+}
+
+.popup-content {
+  background-color: #F29727;
+  color: black;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #F29727;
+  color: black;
+  text-decoration: none;
+  border-radius: 2px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #F2BE22;
+}
+
+.button:active {
+  background-color: #408266;
+
+}
+
+
+    input[type="email"],
+textarea {
+  color: #333; 
+  font-family: Arial, sans-serif;
+  font-size: 16px; 
+  padding: 8px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+}
+
+input[type="email"]:focus,
+textarea:focus {
+  outline: none; 
+  border-color: #66afe9;
+}
+
+</style>
+
+
+</head>
+
+  <header>
+      <h1>I'm Taylor.</h1>
+      <h2>American <span class="pro">Web</span>site <span class='pro'>Dev</span>evloper</h2>
+      <div class="container">
+      <div class="pic headshot"></div>  
+      </div>
+
+
+
+  </header>
+
+  <main>
+   
+    <body>
+
+    <div class="container">
+      <nav id="navbar" class="nav-bar">
+        <ul>
+          <li><a href="#services"><span class="pro">Web</span>site</a></li>
+          <li><a href="#restfulapi"><span class="pro">API</span> Dev </a></li>
+          <li><a href="#portfolio"><span class="pro">Portfolio</span></a></li>
+          
+        </ul>
+      </nav>
+    </div>
+
+    <hr>
+    
+    <div class="skills">
+
+      <div class="skill-row">
+     
+
+      </div>
+ <section id="restfulapi"></section>
+      <div class="skill-row">
+
+        <h3><span class="pro">REST</span> API Development</h3>
+        <p>Enhance your applications with my efficient, adaptable REST API:</p>
+        <p>Enable seamless communication and data exchange between different software systems, empowering businesses.</p>
+        <a href="https://www.fiverr.com/s/3LYR1B" class="button">Hire me on Fiverr</a>
+        
+         </div>
+      
+      <div class="skill-row">
+       
+        <section id="services"></section>
+        <h3>SaaS Website</h3>
+        <p>I will designs and build software-as-a-service (SaaS) application for scalable and customizable solutions.</p>
+
+    </section>
+    <a href="https://www.fiverr.com/budda_fett_apis?source=gig_page&gigs=slug%3Abuild-scalable-and-robust-web-apis%2Cpckg_id%3A1" class="button">Conact me on Fiverr</a>
+     
+
+      </div>
+      
+    <div class="skill-row">
+
+    </section>
+        
+    
+      </div>
+
+    <hr>
+    <div class="container">
+      <section id="portfolio"></section>
+      </div>
+    <div class="project">
+      <h3>Dr. Tuess</h3>
+      <div class="carousel">
+        <div class="carousel-item" style="background-image: url('images/drtuess3.png');"></div>
+        <div class="carousel-item" style="background-image: url('images/drtuess.png');"></div>
+        <div class="carousel-item" style="background-image: url('images/drtuess1.png');"></div>
+        <div class="carousel-item" style="background-image: url('images/drtuess2.png');"></div>
+        <div class="carousel-item" style="background-image: url('images/drtuess3.png');"></div>
+
+
+    </div>
+
+             <p>Dr. Tuess is my creation of a GUI that uses Python tkinter and Openai's api to generate a story and an image</p>
+    </div>
+    
+
+    <div class="project">
+      
+    <section id="portfolio"></section>
+    
+    </div>
+
+
+  <script>
+    (function() {
+      var index = 0;
+      var carouselItems = document.querySelectorAll('.carousel-item');
+      var navbar = document.getElementById('navbar');
+  
+      setInterval(function() {
+        for (var i = 0; i < carouselItems.length; i++) {
+          carouselItems[i].style.opacity = '0';
+        }
+  
+        carouselItems[index].style.opacity = '1';
+        index++;
+  
+        if (index === carouselItems.length) {
+          index = 0;
+        }
+      }, 3000); // Change image every 2 seconds
+  
+      function updateNavbarStyle() {
+        var threshold = 670; // Adjust this value as needed
+        var screenWidth = window.innerWidth || document.documentElement.clientWidth;
+  
+        if (screenWidth < 768 && window.pageYOffset > threshold) {
+          navbar.classList.add("sticky");
+          navbar.classList.add("vertical");
+        } else {
+          navbar.classList.remove("sticky");
+          navbar.classList.remove("vertical");
+        }
+      }
+  
+      // Initial check on page load
+      updateNavbarStyle();
+  
+      // Update on window resize
+      window.addEventListener("resize", updateNavbarStyle);
+  
+      // Update on scroll
+      window.addEventListener("scroll", updateNavbarStyle);
+    })();
+    function openPopup() {
+  document.getElementById("popup").style.display = "block";
+}
+
+function closePopup() {
+  document.getElementById("popup").style.display = "none";
+}
+
+document.getElementById("contact-form").addEventListener("submit", function(event) {
+  event.preventDefault();
+  // Handle form submission here (e.g., sending the email and message data)
+  // You can access the values using document.getElementById("email").value and document.getElementById("message").value
+  closePopup();
+});
+
+  </script>
+  
+  
+
+  </main>
+
+  <footer class="copyright">
+    &copy; 2023 Taylor Ferderer Designs
+  </footer>
+</body>
+</html>
