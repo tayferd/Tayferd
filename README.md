@@ -1,5 +1,5 @@
 ### Hi there 👋
-- 🔭 I’m currently working on API in C#
+- 🔭 I’m currently working on application
 - 🌱 I’m currently learning C#
 - 👯 I’m looking to collaborate on C# unity app
 - 🤔 I’m looking for help with Xamarin
