@@ -1,2 +1,2 @@
 ### Hi there 👋
-- 👯 I’m looking to collaborate on electronic medical records with Django
+- 👯 I’m looking to collaborate on Django web apps
