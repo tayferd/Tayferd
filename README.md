@@ -1,6 +1,6 @@
-### Hi there 👋
+### YoOo 👋
 
-👯 I’m looking to collaborate on AAC software
+👯 I’m looking to collaborate on AAC apps and EMR
 
 🛠️ I specialize in creating affordable and reliable background middleware solutions
 
