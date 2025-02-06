@@ -1,5 +1,5 @@
 ### YoOo 👋
 
-🛠️ I currently have found a niche in freelancing background middleware 
+🛠️ Freelancing backend middleware 
 
-🌱 learning Django as I build my 'golden ticket'
+🌱 Building a Django project for healthcare field
