@@ -1,6 +1,6 @@
 ## Yo0o call me T.
 
-##### Had fun building tools that make my job—and sometimes games or cyber experiments—easier. I didn't break into tech through a traditional route. Instead, I built my own way in by solving real-world problems.
+##### Catch me building tools that make my job—and sometimes games or cyber experiments—easier. I didn't break into tech through a traditional route. Instead, I built my own way in by solving real-world problems.
 
 ##### While experimenting with Fiverr and selling FASTAPI-based APIs (shoutout to Arjan), I was approached by a business that needed more than just an API—it needed a full data pipeline. I solo-engineered and now maintain a system that connects two CRMs with no shared keys, using 3–6 API calls per record to reconcile and transfer data accurately.
 
