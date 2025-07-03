@@ -1,5 +1,11 @@
 ## Yo0o call me T.
-#### Fell for the break into tech meme
-### I started out with Angela's 100days of Python
-### Studied Comptia A+ and passed 
-##### Had some fun building what I wanted to build whether that be for making my current job easier or a game or cyber defense and reverse engineering malware. Nothing that would get a Startup going but they enraged me to get running and introduced me to the feeling of when everything is running flawlessly and the satisfaction. I tried my hand at Fiverr and trying to sell APIs I would make from FASTapi (thank you Arjan) and I was approached by a buisness that thought they needed an api but it turned out what we made based on what they needed was a datapipeline. So I solo engineered this thing and maintain it which was difficult because it was connecting 2 CRMs that did not have any common ID or Key to connect the data in the database. So it takes about 3-6 api calls per piece of information to pass on but I solved the puzzle they needed to fix, so i didnt really break into tech but made my own way. I still work in speech therapy field which is really fulfilling in terms of helping people and my scripts that help me with the job (auto reading documents and extracting the one bit i need and creating folders with documents in them that the information is pasted into) (Gui to display the information I need at hand for treatment) which I gather to connect in a production ready version for the field to benefit from and hopefully my wallet. I also have a special project that is an electronic medical record Django app which is my 'break into tech' which I have the Django part running and now just need a front end which Im actually thinking of using an offline GUI and Django locally hosted. We'll see but for now I take care of a pipeline I engineered myself and treat speech therapy with my awesome scripts that make it so much easier.
+
+##### Had fun building tools that make my job—and sometimes games or cyber experiments—easier. I didn't break into tech through a traditional route. Instead, I built my own way in by solving real-world problems.
+
+##### While experimenting with Fiverr and selling FASTAPI-based APIs (shoutout to Arjan), I was approached by a business that needed more than just an API—it needed a full data pipeline. I solo-engineered and now maintain a system that connects two CRMs with no shared keys, using 3–6 API calls per record to reconcile and transfer data accurately.
+
+##### By day, I work in speech therapy, which is incredibly rewarding. I’ve built internal tools to automate tedious tasks like extracting IEP goals from PDFs and auto-generating folders and documents, complete with a GUI. This saves hours of work and keeps treatment focused and efficient.
+
+##### Now I’m bringing all of this together into a production-ready electronic medical record system built in Django. Backend is running—next up: either a frontend or an offline GUI interface. We'll see.
+
+##### For now: I engineer pipelines, automate my clinical work, and build tools that make hard jobs easier.
