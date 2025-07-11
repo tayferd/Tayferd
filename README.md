@@ -1,4 +1,4 @@
-## Yo0o call me T.
+## Speech therapist assistant turned backend dev. I used to write IEPs — now I write Python. Still fixing problems nobody else wants to touch..
 
 ##### Catch me building tools that make my job—and sometimes games or cyber experiments—easier. I didn't break into tech through a traditional route. Instead, I built my own way in by solving real-world problems.
 
